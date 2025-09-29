@@ -1,0 +1,3 @@
+D:/cdut/CourseFiles/software/audio_video/build/CMakeFiles/test.dir
+D:/cdut/CourseFiles/software/audio_video/build/CMakeFiles/edit_cache.dir
+D:/cdut/CourseFiles/software/audio_video/build/CMakeFiles/rebuild_cache.dir

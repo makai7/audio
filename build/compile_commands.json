@@ -1,8 +1,8 @@
 [
 {
-  "directory": "D:/cdut/CourseFiles/software/audio_video/build",
-  "command": "D:\\ToolBox\\MSYS2\\mingw64\\bin\\clang++.exe -g -std=c++17 -o CMakeFiles\\test.dir\\week1\\test.cpp.obj -c D:\\cdut\\CourseFiles\\software\\audio_video\\week1\\test.cpp",
-  "file": "D:/cdut/CourseFiles/software/audio_video/week1/test.cpp",
-  "output": "D:/cdut/CourseFiles/software/audio_video/build/CMakeFiles/test.dir/week1/test.cpp.obj"
+  "directory": "/home/ian_arch/coding/audio/build",
+  "command": "/usr/bin/c++ -g -std=c++17 -o CMakeFiles/test.dir/week1/day1.cpp.o -c /home/ian_arch/coding/audio/week1/day1.cpp",
+  "file": "/home/ian_arch/coding/audio/week1/day1.cpp",
+  "output": "/home/ian_arch/coding/audio/build/CMakeFiles/test.dir/week1/day1.cpp.o"
 }
 ]

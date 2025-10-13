@@ -11,4 +11,4 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # 添加你的可执行文件目标
-add_executable(test week1/day1.cpp)
+add_executable(1.cpp)

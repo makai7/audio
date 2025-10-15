@@ -41,39 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/ian_arch/coding/audio/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target test
+# Object build statements for EXECUTABLE target wav_parser
 
 
 #############################################
-# Order-only phony target for test
+# Order-only phony target for wav_parser
 
-build cmake_object_order_depends_target_test: phony || .
+build cmake_object_order_depends_target_wav_parser: phony || .
 
-build CMakeFiles/test.dir/1.cpp.o: CXX_COMPILER__test_unscanned_Debug /home/ian_arch/coding/audio/1.cpp || cmake_object_order_depends_target_test
+build CMakeFiles/wav_parser.dir/1.cpp.o: CXX_COMPILER__wav_parser_unscanned_Debug /home/ian_arch/coding/audio/1.cpp || cmake_object_order_depends_target_wav_parser
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/test.dir/1.cpp.o.d
+  DEP_FILE = CMakeFiles/wav_parser.dir/1.cpp.o.d
   FLAGS = -g -std=c++17
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir
+  OBJECT_DIR = CMakeFiles/wav_parser.dir
+  OBJECT_FILE_DIR = CMakeFiles/wav_parser.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test
+# Link build statements for EXECUTABLE target wav_parser
 
 
 #############################################
-# Link the executable test
+# Link the executable wav_parser
 
-build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/1.cpp.o
+build wav_parser: CXX_EXECUTABLE_LINKER__wav_parser_Debug CMakeFiles/wav_parser.dir/1.cpp.o
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/test.dir/link.d
+  DEP_FILE = CMakeFiles/wav_parser.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/test.dir/link.d
-  OBJECT_DIR = CMakeFiles/test.dir
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/wav_parser.dir/link.d
+  OBJECT_DIR = CMakeFiles/wav_parser.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = test
-  TARGET_PDB = test.dbg
+  TARGET_FILE = wav_parser
+  TARGET_PDB = wav_parser.dbg
 
 
 #############################################
@@ -110,7 +110,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/ian_arch/coding/audio/build
 
-build all: phony test
+build all: phony wav_parser
 
 # =============================================================================
 # Built-in targets

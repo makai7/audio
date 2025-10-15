@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "运行 WAV 解析器",
+            "type": "cppdbg",
+            "request": "launch",
+            // 关键点1: 指向你编译好的程序
+            "program": "${workspaceFolder}/build/wav_parser",
+            // 关键点2: 告诉程序要读取哪个文件
+            "args": [
+                "/home/ian_arch/Documents/ardio_videos/sine_440Hz.wav"
+            ],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

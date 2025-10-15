@@ -1,3 +1,0 @@
-/home/ian_arch/coding/audio/build/CMakeFiles/wav_parser.dir
-/home/ian_arch/coding/audio/build/CMakeFiles/edit_cache.dir
-/home/ian_arch/coding/audio/build/CMakeFiles/rebuild_cache.dir

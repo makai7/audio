@@ -12,4 +12,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # 添加你的可执行文件目标
 # 格式: add_executable(程序名字 源文件名)
-add_executable(wav_parser 1.cpp)
+add_executable(wav_arduio day1.cpp)
+
+find_package(ALSA REQUIRED)
+target_link_libraries(wav_parser PRIVATE ${ALSA_LIBS})

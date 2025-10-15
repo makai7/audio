@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream> // 用于文件流操作的库
-
+#include <alsa/asoundlib.h>
 // #include "your_header_file.h" // 如果你把上面的结构体放在一个头文件里，就包含它
 
 // ... 在这里定义 WavHeader 结构体 ...
@@ -57,9 +57,24 @@ int main(int argc, char* argv[]) {
 
     // 步骤6: 关闭文件，释放系统资源。
     file_stream.close();
+
+    snd_pcm_t *pcm_handle;
+    snd_pcm_open(&pcm_handle, "defult", SND_PCM_STREAM_PLAYBACK, 0);
+    if(! snd_pcm is open(pcm_handle)) {
+        std::cerr << "Error: Could not open PCM device." << std::endl;
+        return 1; // 非零返回值通常表示错误
+    }
+    
     // 步骤7: 打印你的结构体中的一些值（例如 myHeader.sample_rate），看看是否成功了。
     std::cout << "Sample Rate: " << myHeader.sample_rate << std::endl;
     std::cout << "Bits Per Sample: " << myHeader.bits_per_sample << std::endl;
     std::cout << "Number of Channels: " << myHeader.num_channels << std::endl;      
     return 0;   
+
+
+
+    
+
+
+
 }

@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/ian_arch/coding/audio/build",
-  "command": "/usr/bin/c++ -g -std=c++17 -o CMakeFiles/wav_parser.dir/1.cpp.o -c /home/ian_arch/coding/audio/1.cpp",
-  "file": "/home/ian_arch/coding/audio/1.cpp",
-  "output": "/home/ian_arch/coding/audio/build/CMakeFiles/wav_parser.dir/1.cpp.o"
-}
-]
